@@ -5,7 +5,7 @@ const searchBtn = document.getElementById('search-btn');
 const sliderBtn = document.getElementById('create-slider');
 const sliderContainer = document.getElementById('sliders');
 const minimumWidth = document.getElementById("minimum-width").value || 1366; // default width 1366px
-const minimumHeight = document.getElementById("minimum-height").value || 768; // default width 768px
+const minimumHeight = document.getElementById("minimum-height").value || 768; // default height 768px
 
 // search by pressing Enter button
 document.addEventListener('keydown', (event) => {
